@@ -1,12 +1,12 @@
 import React from "react";
-import SliderIamgeOne from "../Images/banner-01.png";
-import SliderIamgeTwo from "../Images/banner-02.png";
-import SliderIamgeThree from "../Images/banner-03.png";
-import SliderIamgeFour from "../Images/banner-04.png";
-import SliderIamgeFive from "../Images/banner-05.gif";
-import SliderIamgeSix from "../Images/banner-06.png";
-import SliderIamgeSeven from "../Images/banner-07.png";
-import SliderIamgeEight from "../Images/banner-08.gif";
+import SliderImageOne from "../Images/banner-01.png";
+import SliderImageTwo from "../Images/banner-02.png";
+import SliderImageThree from "../Images/banner-03.png";
+import SliderImageFour from "../Images/banner-04.png";
+import SliderImageFive from "../Images/banner-05.gif";
+import SliderImageSix from "../Images/banner-06.png";
+import SliderImageSeven from "../Images/banner-07.png";
+import SliderImageEight from "../Images/banner-08.gif";
 
 const Slider = () => {
   return (
@@ -33,28 +33,28 @@ const Slider = () => {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={SliderIamgeOne} className="d-block w-100" alt="..." />
+              <img src={SliderImageOne} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeTwo} className="d-block w-100" alt="..." />
+              <img src={SliderImageTwo} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeThree} className="d-block w-100" alt="..." />
+              <img src={SliderImageThree} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeFour} className="d-block w-100" alt="..." />
+              <img src={SliderImageFour} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeFive} className="d-block w-100" alt="..." />
+              <img src={SliderImageFive} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeSix} className="d-block w-100" alt="..." />
+              <img src={SliderImageSix} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeSeven} className="d-block w-100" alt="..." />
+              <img src={SliderImageSeven} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={SliderIamgeEight} className="d-block w-100" alt="..." />
+              <img src={SliderImageEight} className="d-block w-100" alt="..." />
             </div>
           </div>
           <a
