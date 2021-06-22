@@ -53,7 +53,7 @@
   letter-spacing: 1px;
 }
 .categories a:hover {
-  color: rgb(8, 153, 153);
+  box-shadow: 2px 2px 4px grey;
 }
 .btn-down {
   margin-right: 3px;
@@ -133,7 +133,8 @@
   font-size: 13px;
 }
 .icon {
-  color: #f8e80b;
+  color: #353432;
+  background-color: #feee00 !important;
 }
 .footer3 {
   background-color: #f4f4f4;
