@@ -106,7 +106,7 @@ const Footer = () => {
 
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-9">
               <p
                 style={{
                   fontSize: "14px",
@@ -124,18 +124,18 @@ const Footer = () => {
                 <img style={{ width: "120px" }} src={GoogleStoer} alt="" />
               </div>
             </div>
-            <div className="col-md-6 pr-5">
+            <div className="col-md-3 pr-5">
               <p
                 className="text-muted ml-4"
                 style={{ marginTop: "25px", fontWeight: "bold" }}
               >
                 CONNECTION WITH US
               </p>
-              <div className="d-flex " style={{ marginTop: "-10px" }}>
-                <i className="fab fa-facebook fa-3x ml-2 icon"></i>
-                <i className="fab fa-twitter fa-3x ml-2 icon"></i>
-                <i className="fab fa-instagram fa-3x ml-2 icon"></i>
-                <i className="fab fa-linkedin fa-3x ml-2 icon"></i>
+               <div className="d-flex " style={{ marginTop: "-10px" }}>
+                <i className="fa fa-facebook ml-2 icon rounded-circle p-3"></i>
+                <i className="fab fa-twitter ml-2 icon rounded-circle p-3"></i>
+                <i className="fab fa-instagram ml-2 icon rounded-circle p-3"></i>
+                <i className="fab fa-linkedin ml-2 icon rounded-circle p-3"></i>
               </div>
             </div>
           </div>
