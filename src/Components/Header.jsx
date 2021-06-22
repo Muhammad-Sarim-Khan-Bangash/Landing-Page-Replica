@@ -13,30 +13,43 @@ const Header = () => {
             <div className="col-md-1 ">
               <img src={logo} alt="" className="mt-3" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-7">
               <input
                 className="form-control mr-sm-2 mt-3 ml-2 p-3 searchbar"
                 type="search"
                 placeholder="What are you looking for?"
-                style={{ width: "100%" }}
+                style={{
+                  width: "100%",
+                  border: "none !important",
+                  outline: "none !important",
+                }}
               />
             </div>
             <div className="col-md-1 mt-4">
               <p>العربية</p>
             </div>
-            <div className="col-md-1 pt-2">
+            <div className="col-md-1 pt-2 d-flex">
+              <img
+                src="https://z.nooncdn.com/s/app/com/common/images/flags/ae.svg"
+                alt=""
+                style={{ paddingRight: "2px", marginTop: "-15px" }}
+              />
               <p>
                 {" "}
-                <span style={{ fontSize: "12px" }}>Ship to</span> <br />
-                UAE <i className="fas fa-sort-down"></i>
+                <span style={{ fontSize: "12px" }}> Ship to</span> <br />
+                <b>UAE</b> <i className="fas fa-sort-down"></i>
               </p>
             </div>
             <div className="col-md-1 d-flex mt-4">
-              <p className="pr-2">Sign In</p>{" "}
+              <p className="pr-2">
+                <b style={{ fontSize: "14px" }}>Sign In</b>
+              </p>{" "}
               <i className="far fa-user mt-1 user"></i>
             </div>
             <div className="col-md-1 d-flex mt-4">
-              <p className="pr-2">Cart</p>{" "}
+              <p className="pr-2">
+                <b style={{ fontSize: "14px" }}>Cart</b>
+              </p>{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
